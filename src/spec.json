@@ -1,0 +1,190 @@
+{
+  "title": "Gestione delle richieste di manutenzione del verde",
+  "description": "Prototipo per registrare, filtrare e monitorare richieste di manutenzione del verde pubblico, con priorità, quartiere e stato di avanzamento. Tutti i dati sono inventati.",
+  "accent": "emerald",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo delle richieste e delle attività di manutenzione del verde.",
+      "metrics": [
+        {
+          "label": "Richieste aperte",
+          "value": "18"
+        },
+        {
+          "label": "Priorità alta",
+          "value": "4"
+        },
+        {
+          "label": "Quartieri coinvolti",
+          "value": "7"
+        },
+        {
+          "label": "Interventi completati",
+          "value": "26"
+        }
+      ],
+      "columns": [
+        "Stato",
+        "Priorità",
+        "Quartiere",
+        "Area verde",
+        "Intervento",
+        "Data richiesta"
+      ],
+      "rows": [
+        [
+          "Da assegnare",
+          "Alta",
+          "Lumo",
+          "Giardino delle Nubi",
+          "Potatura alberi",
+          "12/05/2025"
+        ],
+        [
+          "In lavorazione",
+          "Media",
+          "Vela",
+          "Parco delle Brume",
+          "Riparazione irrigazione",
+          "11/05/2025"
+        ],
+        [
+          "Da assegnare",
+          "Bassa",
+          "Nubi",
+          "Viale dei Salici",
+          "Raccolta rami",
+          "10/05/2025"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "richieste",
+      "title": "Richieste",
+      "description": "Elenco filtrabile delle segnalazioni, con possibilità di aggiungere una richiesta di manutenzione.",
+      "metrics": [],
+      "columns": [
+        "Quartiere",
+        "Area verde",
+        "Intervento",
+        "Priorità",
+        "Stato",
+        "Data richiesta"
+      ],
+      "rows": [
+        [
+          "Lumo",
+          "Giardino delle Nubi",
+          "Potatura alberi",
+          "Alta",
+          "Da assegnare",
+          "12/05/2025"
+        ],
+        [
+          "Vela",
+          "Parco delle Brume",
+          "Riparazione irrigazione",
+          "Media",
+          "In lavorazione",
+          "11/05/2025"
+        ],
+        [
+          "Nubi",
+          "Viale dei Salici",
+          "Raccolta rami",
+          "Bassa",
+          "Da assegnare",
+          "10/05/2025"
+        ],
+        [
+          "Riva",
+          "Boschetto Quieto",
+          "Rimozione ramo caduto",
+          "Alta",
+          "Assegnata",
+          "09/05/2025"
+        ],
+        [
+          "Alba",
+          "Orto delle Lanterne",
+          "Sfalcio erba",
+          "Media",
+          "Completata",
+          "08/05/2025"
+        ]
+      ],
+      "form": [
+        "Quartiere",
+        "Area verde",
+        "Intervento",
+        "Priorità",
+        "Stato",
+        "Data richiesta"
+      ]
+    },
+    {
+      "id": "interventi",
+      "title": "Interventi",
+      "description": "Registro filtrabile degli interventi programmati e conclusi.",
+      "metrics": [
+        {
+          "label": "Programmato",
+          "value": "9"
+        },
+        {
+          "label": "In corso",
+          "value": "6"
+        },
+        {
+          "label": "Completato nel mese",
+          "value": "26"
+        }
+      ],
+      "columns": [
+        "Area verde",
+        "Quartiere",
+        "Intervento",
+        "Priorità",
+        "Stato",
+        "Data intervento"
+      ],
+      "rows": [
+        [
+          "Giardino delle Nubi",
+          "Lumo",
+          "Potatura alberi",
+          "Alta",
+          "Programmato",
+          "15/05/2025"
+        ],
+        [
+          "Parco delle Brume",
+          "Vela",
+          "Riparazione irrigazione",
+          "Media",
+          "In corso",
+          "14/05/2025"
+        ],
+        [
+          "Boschetto Quieto",
+          "Riva",
+          "Rimozione ramo caduto",
+          "Alta",
+          "Completato",
+          "13/05/2025"
+        ]
+      ],
+      "form": [
+        "Area verde",
+        "Quartiere",
+        "Intervento",
+        "Priorità",
+        "Stato",
+        "Data intervento"
+      ]
+    }
+  ]
+}
